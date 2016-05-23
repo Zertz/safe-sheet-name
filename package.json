@@ -1,0 +1,35 @@
+{
+  "name": "safe-sheet-name",
+  "version": "0.0.0",
+  "description": "Replace disallowed characters (\/?*[]) from Excel sheet names and a few others that may cause issues, including &",
+  "license": "MIT",
+  "repository": "Zertz/safe-sheet-name",
+  "author": {
+    "name": "Pier-Luc Gendreau",
+    "url": "https://github.com/Zertz"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "standard && ava --verbose"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "safe",
+    "sheet",
+    "name",
+    "excel",
+    "xls",
+    "xlsx"
+  ],
+  "dependencies": {
+    "lodash.escaperegexp": "~4.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.12.0",
+    "standard": "^7.0.0"
+  }
+}
