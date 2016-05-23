@@ -1,6 +1,6 @@
 {
   "name": "safe-sheet-name",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Trim Excel sheet names to 31 characters and replace explicitely disallowed characters (/?*[]) and a few others that may cause issues, including &",
   "license": "MIT",
   "repository": "Zertz/safe-sheet-name",
