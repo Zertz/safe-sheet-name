@@ -15,7 +15,7 @@ $ npm install --save safe-sheet-name
 ```js
 const safeSheetName = require('safe-sheet-name')
 
-safeSheetName(' [/?*unicorns & rainbows*?\] ')
+safeSheetName(' [/?*unicorns & rainbows*?\]   unicorns')
 //=> 'unicorns  rainbows'
 ```
 
